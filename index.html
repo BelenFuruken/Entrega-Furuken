@@ -13,6 +13,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <title>HOME</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
 </html>
 
@@ -33,13 +34,14 @@
             </ul>
         </nav>
     </header> 
-    <div id="descripcion">
-        <div>
-            <h1 id="nombre"> ZOE MARÍA FURUKEN </h1>
-        </div>
-        <h4> ARQUITECTURA  -  FOTOGRAFÍA  -  DISEÑO</h4>
-    </div>   
-
+    <div data-aos="zoom-in">
+        <div id="descripcion">
+            <div>
+                <h1 id="nombre"> ZOE MARÍA FURUKEN </h1>
+            </div>
+            <h4> ARQUITECTURA  -  FOTOGRAFÍA  -  DISEÑO</h4>
+        </div>   
+    </div>
     <footer id="pie">
         <div class="linea">
             <!--LOGO INSTA-->
@@ -58,5 +60,9 @@
             <a href=""><img src="./image/bxl-instagram.svg"></a>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
